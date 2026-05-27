@@ -18,6 +18,18 @@ FitAI er en AI fitness webapp bygget i Python.
 - Vægtgrafer
 - CSV datalagring
 
+## Opsætning
+
+klon repositoriet
+
+python -m venv venv
+
+venv\Scripts\activate 
+
+pip install -r ./backend/requirements.txt
+
+
+
 ## Start projekt
 
 ### Backend
