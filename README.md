@@ -33,3 +33,18 @@ streamlit run FitAi.py
 start docker desktop op
 
 docker compose up --build
+
+gå til http://localhost:8501/
+
+## kør unittest
+
+$env:PYTHONPATH="." 
+pytest
+
+## linting
+
+uv run ruff check . --fix
+
+## type checking
+
+uv run pyright

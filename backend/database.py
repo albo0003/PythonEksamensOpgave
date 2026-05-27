@@ -1,7 +1,10 @@
 import pandas as pd
 import os
 
+DATA_DIR = "/app/data"
 FILE_PATH = "/app/data/users.csv"
+
+os.makedirs(DATA_DIR, exist_ok=True)
 
 
 def sign_up_user(username, password):
