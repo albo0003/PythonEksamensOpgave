@@ -32,11 +32,11 @@ pip install -r ./backend/requirements.txt
 
 ## Start projekt
 
-### Backend
+### Backend(før docker compose, virker ikke nu)
 
 uvicorn main:app --reload
 
-### Frontend
+### Frontend(før docker compose, virker ikke nu)
 
 streamlit run FitAi.py
 
